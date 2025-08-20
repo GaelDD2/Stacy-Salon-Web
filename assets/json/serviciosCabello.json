@@ -1,0 +1,56 @@
+[
+  {
+    "servicio": "Corte Caballero",
+    "descripcion": "Corte profesional para caballeros, incluye lavado y estilo.",
+    "precio": 6000,
+    "imagen": "assets/img/ServicioCabello1.jpg"
+  },
+  {
+    "servicio": "Alisado con Keratina",
+    "descripcion": "Tratamiento de alisado duradero con keratina de alta calidad.",
+    "precio": 30000,
+    "imagen": "assets/img/ServicioCabello2.jpg"
+  },
+  {
+    "servicio": "Coloración Profesional",
+    "descripcion": "Cambio de color total o retoque con tintes de alta calidad.",
+    "precio": 15000,
+    "imagen": "assets/img/ServicioCabello3.jpg"
+  },
+  {
+    "servicio": "Corte Dama",
+    "descripcion": "Corte personalizado para damas, incluye diagnóstico capilar, lavado, corte según rostro y estilo final.",
+    "precio": 8000,
+    "imagen": "assets/img/ServicioCabello4.jpg"
+  },
+  {
+    "servicio": "Mechas o Iluminaciones",
+    "descripcion": "Técnica para dar luz al cabello con tonos más claros, incluye decoloración parcial.",
+    "precio": 8500,
+    "imagen": "assets/img/ServicioCabello5.jpg"
+  },
+  {
+    "servicio": "Rizado Profesional",
+    "descripcion": "Moldeado del cabello con herramientas térmicas para lograr unos rizos definidos.",
+    "precio": 10000,
+    "imagen": "assets/img/ServicioCabello6.jpg"
+  },
+  {
+    "servicio": "Peinado para Evento",
+    "descripcion": "Peinado elaborado para bodas, graduaciones u ocasiones especiales, según gusto del cliente.",
+    "precio": 7500,
+    "imagen": "assets/img/ServicioCabello7.jpg"
+  },
+  {
+    "servicio": "Combo Alisado + Tinte",
+    "descripcion": "Aprovechá un 20% de descuento durante Agosto.",
+    "precio": 25000,
+    "imagen": "assets/img/ServicioCabello8.jpg"
+  },
+  {
+    "servicio": "Pack Novia",
+    "descripcion": "Maquillaje + peinado + limpieza facial por un precio increible.",
+    "precio": 35000,
+    "imagen": "assets/img/ServicioCabello9.jpg"
+  }
+]

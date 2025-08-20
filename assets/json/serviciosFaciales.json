@@ -1,0 +1,38 @@
+[
+  {
+    "servicio": "Limpieza Facial",
+    "descripcion": "Elimina impurezas, puntos negros y células muertas. Incluye exfoliación, extracción, vapor y mascarilla hidratante.",
+    "precio": 8000,
+    "imagen": "assets/img/ServicioEsteticoFacial1.jpg"
+  },
+  {
+    "servicio": "Depilación de Cejas con Cera o Pinza",
+    "descripcion": "Moldeo y definición de cejas según el rostro del cliente.",
+    "precio": 3500,
+    "imagen": "assets/img/ServicioEsteticoFacial2.jpg"
+  },
+  {
+    "servicio": "Pigmentación de Cejas con Henna",
+    "descripcion": "Tinte semipermanente natural que realza la forma y color de las cejas, duración de 2 a 3 semanas.",
+    "precio": 8000,
+    "imagen": "assets/img/ServicioEsteticoFacial3.png"
+  },
+  {
+    "servicio": "Maquillaje Social",
+    "descripcion": "Maquillaje profesional para eventos de día o noche, incluye preparación de la piel y fijador.",
+    "precio": 9500,
+    "imagen": "assets/img/ServicioEsteticoFacial4.png"
+  },
+  {
+    "servicio": "Radiofrecuencia Facial",
+    "descripcion": "Técnica que ayuda a reafirmar la piel, reducir líneas de expresión y estimular colágeno.",
+    "precio": 18000,
+    "imagen": "assets/img/ServicioEsteticoFacial5.png"
+  },
+  {
+    "servicio": "Colocación de Pestañas Clásicas",
+    "descripcion": "Técnica 1x1 donde se coloca una extensión sobre cada pestaña natural. Resultado natural y definido.",
+    "precio": 15000,
+    "imagen": "assets/img/ServicioEsteticoFacial6.jpeg"
+  }
+]

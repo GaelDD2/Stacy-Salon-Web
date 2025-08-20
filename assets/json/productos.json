@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Laca",
+    "marca": "Redken",
+    "descripcion": "Laca de fijacion fuerte y rapido secado.",
+    "precio": 14900,
+    "imagen": "assets/img/producto1.jpg"
+  },
+  {
+    "nombre": "Protector termico",
+    "marca": "BCN",
+    "descripcion": "El protector térmico contiene un copolímero activado por calor a base de proteínas de trigo y de silicona.",
+    "precio": 9500,
+    "imagen": "assets/img/producto2.jpg"
+  },
+  {
+    "nombre": "Gotas Argan",
+    "marca": "FAMO",
+    "descripcion": "Las gotas FAMO son un tratamiento capilar a base de aceite de argán y vitamina E que regenera y refuerza el cabello desde la raíz.",
+    "precio": 6500,
+    "imagen": "assets/img/producto3.jpg"
+  },
+  {
+    "nombre": "Exfoliante cuero cabelludo",
+    "marca": "ORGANIC SHOP",
+    "descripcion": "Ayuda a reequilibrar el cabello, acondicionando las longitudes, dejando el cabello voluminoso.",
+    "precio": 4750,
+    "imagen": "assets/img/producto4.jpg"
+  },
+  {
+    "nombre": "Tratamiento cabello crespo",
+    "marca": "PLACENTALIFE",
+    "descripcion": "Mascarilla de hidratación ultra profunda para tratar las ondas o rizos secos, aportando brillo y suavidad.",
+    "precio": 8450,
+    "imagen": "assets/img/producto5.jpg"
+  },
+  {
+    "nombre": "Tratamiento Pro-reconstructor",
+    "marca": "NATURA",
+    "descripcion": "Sistema de tratamiento reconstrucción de daños extremos. Ahora con nueva fragancia.",
+    "precio": 8850,
+    "imagen": "assets/img/producto6.jpg"
+  }
+]

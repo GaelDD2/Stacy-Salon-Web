@@ -1,0 +1,20 @@
+{
+  "imagenes": [
+    { "src": "assets/img/galeria1.jpg", "alt": "Corte 1", "clase": "largo" },
+    { "src": "assets/img/galeria2.jpg", "alt": "Corte 2", "clase": "corto" },
+    { "src": "assets/img/galeria3.jpg", "alt": "Corte 3", "clase": "largo color" },
+    { "src": "assets/img/galeria4.jpg", "alt": "Corte 4", "clase": "largo" },
+    { "src": "assets/img/galeria5.jpg", "alt": "Corte 5", "clase": "corto color" },
+    { "src": "assets/img/galeria6.jpg", "alt": "Corte 6", "clase": "largo" },
+    { "src": "assets/img/galeria7.jpg", "alt": "Corte 7", "clase": "largo" },
+    { "src": "assets/img/galeria8.jpg", "alt": "Corte 8", "clase": "largo color" },
+    { "src": "assets/img/galeria9.jpg", "alt": "Corte 9", "clase": "corto color" },
+    { "src": "assets/img/galeria10.jpg", "alt": "Corte 10", "clase": "largo" },
+    { "src": "assets/img/galeria11.jpg", "alt": "Corte 11", "clase": "largo color" },
+    { "src": "assets/img/galeria12.jpg", "alt": "Corte 12", "clase": "largo" },
+    { "src": "assets/img/galeria13jpg.jpg", "alt": "Corte 13", "clase": "largo color" },
+    { "src": "assets/img/galeria14.jpg", "alt": "Corte 14", "clase": "largo color" },
+    { "src": "assets/img/galeria15.jpg", "alt": "Corte 15", "clase": "corto color" }
+  ]
+}
+

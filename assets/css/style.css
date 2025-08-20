@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    
+    font-family: 'Outfit', sans-serif;
+   
+
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Navegacion */
+.navbar-nav {
+    gap: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  
+.LogoNav {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain; 
+  }
+  
+
+  .logoContainer{
+    height: 115px;
+    width: 115px;
+  }
+
+.linkNav:hover{
+  color: #ffa89e !important;
+}
+
+
+
+  /* Navegacion */
+
+  /* Banner de redes sociales */
+  .InfoRedes{
+   color: aliceblue;
+   font-size: 1.1rem;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+  }
+
+  .StacySalon{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 20px;
+  }
+   
+  .DetalleInfo{
+    margin-left: 5px;
+  }
+
+  .BannerRedes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+  }
+
+  .IconosRedes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  }
+  
+  .icono{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 7px;
+  }
+  
+
+  /* Banner de redes sociales */
+
+ /* Carousel */
+
+
+
+  .carousel-item img {
+    height: 700px; 
+    object-fit: cover;
+  }
+
+
+
+
+
+ /* Carousel */
+  /* Bienvenida */
+
+  
+
+  .TextBienvenida {
+      position: relative;
+      background-image: url('../img/fondoBienvenida.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      min-height: 300px;
+      padding: 40px;
+      z-index: 1;
+      height: 850px;
+    }
+
+    .TextBienvenida::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 0;
+    }
+
+    .TextBienvenida > * {
+      position: relative;
+      z-index: 2;
+    }
+  
+  .img-galeria {
+    height: 420px;        
+    object-fit: cover;    
+    width: 100%;          
+  }
+  
+  .infoStacy{
+    transition: box-shadow 0.6s ease, transform 0.6s ease;
+  }
+
+  .infoStacy:hover{
+ 
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5); 
+    transform: translateY(-10px);
+    border: 1px solid #212529;
+
+  }
+  
+  .VerMasStacy{
+    text-decoration: none;
+    color: #ffa89e;
+    display: block;
+  }
+  
+  .fade-on-scroll {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+  }
+  
+  .fade-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+   /* Bienvenida */
+ /* Destacados */
+
+ .CardDestacado {
+  background-color: transparent !important;
+  background-size: cover;
+  background-position: center;
+  transition: background-size 1.5s ease;
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 0.5rem;
+  position: relative;
+  color: white;
+}
+
+.CardDestacado::before {
+  background-color: rgba(255, 255, 255, 0);
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0);  /* Sin overlay inicialmente */
+  transition: background-color 0.4s ease;
+  z-index: 1;
+}
+
+.CardDestacado:hover {
+  background-size: 115%;  /* Zoom */
+}
+
+.CardDestacado:hover::before {
+  background-color: rgba(255, 255, 255, 0.3); /* Filtro blanco suave */
+}
+
+.CardDestacado .card-body {
+  position: relative;
+  z-index: 2;
+}
+  
+   .CD-1{
+    background-image: url('../img/Bienvenida3.jpg'); 
+    
+   }
+
+   .CD-2{
+    background-image: url('../img/Destacado2.jpg'); 
+    
+   }
+   .CD-3{
+    background-image: url('../img/Destacado3.jpg'); 
+    
+   }
+
+   .CD-4{
+    background-image: url('../img/Destacado4.jpg'); 
+    
+   }
+   
+    /* Destacados */
+    /* Comentarios */
+   
+    .cardComment{
+      background-color: #ffede6;
+    }
+
+
+    .parallax-section {
+      background-image: url("../img/imgHome7.jpg"); /* ajusta esto */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 100px 0; /* más espacio arriba y abajo */
+      position: relative;
+    }
+    
+    .containerComments {
+      background-color: rgba(255, 144, 131, 0.9); /* rosado con 90% opacidad */
+      padding: 60px 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+        
+
+    /* Comentatios */
+    /* Info */
+    .InfoSection {
+      background-color: slategrey;
+      color: white;
+    }
+    
+    .CallToAction{
+      color: #212529;
+    }
+    
+    /* Info */
+   
+    /* Footer */
+
+    .footer {
+      background-image: url('../img/footer1.jpg'); /* Ruta de tu imagen */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      position: relative;
+    }
+    .footer::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0,0,0,0.6); /* Oscurecer fondo */
+      z-index: 0;
+    }
+    .footer > .container {
+      position: relative;
+      z-index: 1;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .enlaceRapido:hover{
+      color: #ffa89e !important;
+    }
+    
+    .ContainerEnlace h5{
+      color: #ffa89e;
+    }
+    
+    /* Footer */
+    /* Clases extras */
+    .paginaSeleccionada{
+      text-decoration: underline;
+      color: #ffa89e !important;
+    }
+    /* Clases extras */
+       /* Historia */
+
+       .BannerHistoria{
+        height: 120px;
+        background-color: #212529;
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: xx-large;
+        justify-content: center;
+        align-items: center;
+
+       }
+       .img-historia {
+        height: 380px;           
+        object-fit: cover;        
+        width: 100%;              
+      }
+      
+
+
+
+
+
+       /* Historia */
+
+    /* Icono WhatsApp */
+    .btn-sticky-contact {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25d366;
+        color: white;
+        padding: 12px 16px;
+        border-radius: 50%;
+        text-align: center;
+        z-index: 9999;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+      }
+      
+      .btn-sticky-contact:hover {
+        background-color: #1ebd5b;
+        color: white;
+      }
+    /* Icono WhatsApp */
+
+    /* Galeria */
+    .galeria-item img {
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+    
+    .galeria-item img:hover {
+      transform: scale(1.05);
+      filter: brightness(1.1);
+    }
+
+   .galeria-item{
+    transition: all 0.3s ease;
+   }
+    .galeria-thumb {
+      height: 450px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    
+    .galeria-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Recorta sin deformar */
+      transition: transform 0.3s ease;
+    }
+    
+    .galeria-thumb:hover img {
+      transform: scale(1.05);
+    }
+
+    #musicButton {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: silver;
+      color: white;
+      font-size: 28px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 9999;
+      transition: transform 0.2s ease;
+    }
+    
+    #musicButton:hover {
+      transform: scale(1.1);
+    }
+    
+    
+    /* Galeria */
+
+
+    /* Productos */
+    .DescripcionExtra{
+      height: 50px;
+    }
+    
+    
+
+     /* Productos */
+
+
+
+  @media (max-width: 600px){
+    .InfoRedes {
+        display: none;
+      }
+    
+      .PanelRedes {
+        height: 40px;
+        display: flex;
+        align-items: center; 
+      }
+    
+      .IconosRedes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;   
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        gap: 15px;
+      }
+    
+      .IconoContainer {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        color: white;
+      }
+    
+      .icono {
+        font-size: 1.4rem;
+       
+      }
+
+      .carousel-item img {
+        height: 300px;
+        object-fit: cover;
+      }
+
+      .carousel-caption{
+        height: 230px;
+        object-fit: cover;
+        font-size: x-small;
+      }
+
+      .infoCarousel{
+        display: none;
+      }
+      
+      .smallStacy{
+        display: none;
+
+      }
+
+      .infoStacy{
+        height: 320px;
+        font-size: 15px ;
+        overflow: auto;
+      }
+
+      .parallax-section {
+        background-image: url("../img/imgHome6.jpg"); /* ajusta esto */
+      }  
+
+    }
